@@ -1,0 +1,22 @@
+public class Main {
+
+    public static void main(String[] args)
+     {
+            int sum =15697;
+            int five = sum/5000;
+            int a = sum % 15000;
+            int two = a / 2000;
+            int one = a / 1000;
+            int fiveh = a / 500;
+            int sto = a /100;
+            int poltishok = (a -300) / 50;
+            int chervonetz = (a - 350)/ 10;
+            System.out.println("5000--" + five);
+            System.out.println("2000--" + two);
+            System.out.println("1000--" + one);
+            System.out.println("500--" + fiveh);
+            System.out.println("100--" + sto);
+            System.out.println("50--" + poltishok);
+            System.out.println("10--" + chervonetz);
+            System.out.println(sum%5000);
+        }}
